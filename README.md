@@ -44,7 +44,6 @@
   - [4. 💻 Run the Development Server](#4--run-the-development-server)
 - [🔒 Security & Data Integrity](#-security--data-integrity)
 - [📄 License](#-license)
-- [👨‍💻 Author](#-author)
 
 ---
 
@@ -185,9 +184,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 This project is licensed under the [MIT License](LICENSE) — feel free to use, modify, and build upon it.
 
----
-
-## 👨‍💻 Author
-
-Developed by **Dipesh Prajapati**  
-GitHub: [@dipzz0](https://github.com/dipzz0)
+<p align="center">
+  Built for seamless freight mobility & logistics dispatching everywhere. 🚚
+</p>
