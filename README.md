@@ -29,32 +29,32 @@
 
 ## 📑 Table of Contents
 
-- [Overview](#overview)
-- [System Architecture](#system-architecture)
-- [Key Features](#key-features)
-  - [For Shippers & Cargo Customers](#for-shippers--cargo-customers)
-  - [For Transporters & Fleet Owners](#for-transporters--fleet-owners)
-- [Technology Stack](#technology-stack)
-- [Database Architecture](#database-architecture)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [1. Clone the Repository](#1-clone-the-repository)
-  - [2. Install Dependencies](#2-install-dependencies)
-  - [3. Setup Environment Variables](#3-setup-environment-variables)
-  - [4. Run the Development Server](#4-run-the-development-server)
-- [Security & Data Integrity](#security--data-integrity)
-- [License](#license)
-- [Author](#author)
+- [🚚 Overview](#-overview)
+- [📊 System Architecture](#-system-architecture)
+- [✨ Key Features](#-key-features)
+  - [📦 For Shippers & Cargo Customers](#-for-shippers--cargo-customers)
+  - [🚛 For Transporters & Fleet Owners](#-for-transporters--fleet-owners)
+- [🛠️ Technology Stack](#️-technology-stack)
+- [🗄️ Database Architecture](#️-database-architecture)
+- [🚀 Getting Started](#-getting-started)
+  - [📋 Prerequisites](#-prerequisites)
+  - [1. 📥 Clone the Repository](#1--clone-the-repository)
+  - [2. 📦 Install Dependencies](#2--install-dependencies)
+  - [3. ⚙️ Setup Environment Variables](#3-️-setup-environment-variables)
+  - [4. 💻 Run the Development Server](#4--run-the-development-server)
+- [🔒 Security & Data Integrity](#-security--data-integrity)
+- [📄 License](#-license)
+- [👨‍💻 Author](#-author)
 
 ---
 
-## Overview
+## 🚚 Overview
 
 **LogiFlow** is a modern, high-performance logistics marketplace and fleet management solution connecting cargo owners, businesses, and shippers with verified truck and tempo operators. Engineered with TanStack Start, React 19, and Supabase, the platform delivers real-time vehicle booking, intelligent dispatching, transparent pricing, and comprehensive fleet monitoring across intra-city and inter-city routes.
 
 ---
 
-## System Architecture
+## 📊 System Architecture
 
 ```mermaid
 flowchart TD
@@ -85,9 +85,9 @@ flowchart TD
 
 ---
 
-## Key Features
+## ✨ Key Features
 
-### For Shippers & Cargo Customers
+### 📦 For Shippers & Cargo Customers
 - **Multi-Category Fleet Discovery**: Instant search across Mini Trucks, Tempos, Pickups, Container Trucks, Heavy Trailers, and Refrigerated Vans.
 - **Dynamic Capacity Filtering**: Filter by tonnage, volume capacity, city of operation, and base fare.
 - **Streamlined 3-Step Booking**:
@@ -98,7 +98,7 @@ flowchart TD
 - **Digital Invoicing**: Automated receipt generation (`RCPT-XXXXXXXXXX`) and payment records.
 - **Ratings & Reviews**: Transparent post-trip review system ensuring service reliability.
 
-### For Transporters & Fleet Owners
+### 🚛 For Transporters & Fleet Owners
 - **Digital Fleet Onboarding**: Register vehicles with registration plates, capacity, city base, and pricing formulas.
 - **Document & Photo Management**: Secure upload of permits, RC books, and vehicle inspections to dedicated storage buckets.
 - **Interactive Dispatch Center**: Real-time incoming booking requests with one-click Accept or Reject.
@@ -107,7 +107,7 @@ flowchart TD
 
 ---
 
-## Technology Stack
+## 🛠️ Technology Stack
 
 - **Framework**: TanStack Start (SSR, File-based routing, Nitro server runtime)
 - **Frontend Core**: React 19, TypeScript
@@ -119,7 +119,7 @@ flowchart TD
 
 ---
 
-## Database Architecture
+## 🗄️ Database Architecture
 
 LogiFlow is powered by a relational PostgreSQL schema secured with Row Level Security (RLS):
 
@@ -135,24 +135,24 @@ LogiFlow is powered by a relational PostgreSQL schema secured with Row Level Sec
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
-### Prerequisites
+### 📋 Prerequisites
 - Node.js 20+
 - npm, pnpm, or bun
 
-### 1. Clone the Repository
+### 1. 📥 Clone the Repository
 ```bash
 git clone https://github.com/dipzz0/LogiFlow.git
 cd LogiFlow
 ```
 
-### 2. Install Dependencies
+### 2. 📦 Install Dependencies
 ```bash
 npm install
 ```
 
-### 3. Setup Environment Variables
+### 3. ⚙️ Setup Environment Variables
 Create a `.env` file in the project root:
 ```bash
 cp .env.example .env
@@ -165,7 +165,7 @@ SUPABASE_URL=https://your-project.supabase.co
 SUPABASE_PUBLISHABLE_KEY=your-publishable-key
 ```
 
-### 4. Run the Development Server
+### 4. 💻 Run the Development Server
 ```bash
 npm run dev
 ```
@@ -173,7 +173,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ---
 
-## Security & Data Integrity
+## 🔒 Security & Data Integrity
 
 - **Environment Decoupling**: Sensitive credentials, keys, and tokens are strictly kept out of version control via `.gitignore`.
 - **Row Level Security**: Database queries are strictly gated at the database layer; customers and owners access only authorized records.
@@ -181,13 +181,13 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ---
 
-## License
+## 📄 License
 
 This project is licensed under the [MIT License](LICENSE) — feel free to use, modify, and build upon it.
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 Developed by **Dipesh Prajapati**  
 GitHub: [@dipzz0](https://github.com/dipzz0)
