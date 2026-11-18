@@ -49,7 +49,18 @@
 
 ## 🚚 Overview
 
-**LogiFlow** is a modern, high-performance logistics marketplace and fleet management solution connecting cargo owners, businesses, and shippers with verified truck and tempo operators. Engineered with TanStack Start, React 19, and Supabase, the platform delivers real-time vehicle booking, intelligent dispatching, transparent pricing, and comprehensive fleet monitoring across intra-city and inter-city routes.
+**LogiFlow** is a modern, enterprise-grade logistics marketplace and fleet management ecosystem engineered to bridge the gap between commercial freight shippers and vehicle operators. Traditional road logistics often suffers from fragmented middleman networks, unpredictable price gouging, lack of shipment visibility, and cumbersome offline paperwork. LogiFlow addresses these friction points with a unified digital platform that standardizes commercial transport across intra-city delivery and long-haul inter-state transit.
+
+Built with **TanStack Start**, **React 19**, and a hardened **Supabase PostgreSQL** backend, LogiFlow operates as a high-throughput, two-sided marketplace where enterprises, small businesses, and individual shippers can seamlessly discover, price, and dispatch commercial vehicles with complete transparency.
+
+### Key Value Propositions:
+
+- **Unified Multi-Tier Fleet Discovery**: Instant access to a diverse commercial fleet ranging from 1-ton city tempos and mini-trucks for rapid hyperlocal dispatches up to 40-ton multi-axle trailers and cold-chain refrigerated vans for industrial logistics.
+- **Transparent Algorithmic Fare Estimation**: Eliminates arbitrary broker markups with real-time, deterministic pricing computed from standardized base fares, distance matrices, and payload capacity.
+- **End-to-End Shipment Lifecycle Tracking**: Granular, milestone-based status updates (`Pending` ➔ `Accepted` ➔ `In Transit` ➔ `Delivered`) providing complete operational clarity for both shippers and transporters.
+- **Dedicated Dual Operational Dashboards**: Tailored user experiences with separate, permission-isolated workspaces for customers (order tracking, digital invoicing, driver ratings) and vehicle owners (fleet onboarding, document compliance, earnings analytics).
+- **Automated Digital Invoicing & Audit Trails**: Real-time generation of compliant digital receipts (`RCPT-XXXXXXXXXX`) with itemized subtotal, tax breakdown, and secure payment logs.
+- **Enterprise-Grade Data Security**: Enforces database-level Row Level Security (RLS) policies, ensuring commercial trip data, invoices, and fleet documents remain strictly confidential between contracting parties.
 
 ---
 
