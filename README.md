@@ -15,6 +15,16 @@
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License" />
 </p>
 
+<p align="center">
+  <a href="https://ailogiflow.lovable.app" target="_blank">
+    <img src="https://img.shields.io/badge/%F0%9F%8C%90_Live_Demo-ailogiflow.lovable.app-2ea44f?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo" />
+  </a>
+</p>
+
+<p align="center">
+  &#128279; <strong>Live App URL:</strong> <a href="https://ailogiflow.lovable.app" target="_blank">https://ailogiflow.lovable.app</a>
+</p>
+
 ---
 
 ## Overview
