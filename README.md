@@ -27,6 +27,27 @@
 
 ---
 
+## 📑 Table of Contents
+
+- [Overview](#overview)
+- [System Architecture](#system-architecture)
+- [Key Features](#key-features)
+  - [For Shippers & Cargo Customers](#for-shippers--cargo-customers)
+  - [For Transporters & Fleet Owners](#for-transporters--fleet-owners)
+- [Technology Stack](#technology-stack)
+- [Database Architecture](#database-architecture)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [1. Clone the Repository](#1-clone-the-repository)
+  - [2. Install Dependencies](#2-install-dependencies)
+  - [3. Setup Environment Variables](#3-setup-environment-variables)
+  - [4. Run the Development Server](#4-run-the-development-server)
+- [Security & Data Integrity](#security--data-integrity)
+- [License](#license)
+- [Author](#author)
+
+---
+
 ## Overview
 
 **LogiFlow** is a modern, high-performance logistics marketplace and fleet management solution connecting cargo owners, businesses, and shippers with verified truck and tempo operators. Engineered with TanStack Start, React 19, and Supabase, the platform delivers real-time vehicle booking, intelligent dispatching, transparent pricing, and comprehensive fleet monitoring across intra-city and inter-city routes.
